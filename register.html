@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Register</title>
+		<link rel = 'stylesheet' href = './styles/bootstrap.min.css' />
+	</head>
+	<body>
+	<form action = "sample.php" method = "POST">
+	<div class = "panel panel-default">
+		<div class = "panel-body">
+			Already a member?
+			<a href = "">Sign in</a>
+		</div>
+	</div>
+		<div class = 'container'>
+			<div class = row>
+				<div class = 'col-md-6'>
+					<div class = 'jumbotron'>
+						<h1>Register</h1>
+						<div class="form-group">
+							<label for="textarea">Your name and address</label>
+							<textarea class="form-control" rows="5" id="sample" name = "ta"></textarea>
+						</div>
+						<br /><br />
+						<div class="checkbox">
+							<label><input type="checkbox" value="1" name = "cb" >Option 1</label>
+						</div>
+						<div class="btn-group">
+							<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" name = "dp">
+								which constellation is your favorite?
+							</button>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="#" name = "dp1">first</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#" name = "dp2" >Second</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#" name = "dp3">third</a>
+							</div>
+						</div>
+						<br /><br />
+						
+						<button type="submit" value = "submit" class="btn btn-default">submit</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</form>
+	<script src = './scripts/jquery-2.1.4.min.js'></script>
+	<script src = './scripts/bootstrap.min.js' ></script>
+	</body>
+</html>
